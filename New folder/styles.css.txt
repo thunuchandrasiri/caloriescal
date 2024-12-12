@@ -1,0 +1,86 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #283048, #859398);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.calculator-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 350px;
+    width: 100%;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #f5f5f5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+    font-size: 0.9rem;
+    color: #e0e0e0;
+}
+
+input, select {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+input::placeholder {
+    color: #ccc;
+}
+
+button {
+    padding: 10px;
+    font-size: 1rem;
+    background: linear-gradient(135deg, #56ab2f, #a8e063);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #a8e063, #56ab2f);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #fdfdfd;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
